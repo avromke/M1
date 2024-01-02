@@ -12,3 +12,6 @@ for i in range(len(movies)):
 json_object = json.dumps(movie_ratings, indent=4)
  
 print(json_object)
+Table departments, columns = [DepartmentId, DepartmentName]
+Table students, columns = [DepartmentId, StudentId, StudentName]
+Create a MySQL query for all students in the Computer Science department
